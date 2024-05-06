@@ -1,0 +1,27 @@
+.contact{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 10px;
+    width: 30%;
+    justify-content: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.contact-style{
+  width: 30%;
+  margin: 0 auto;
+  /* text-align: center; */
+  margin-top: 100px;
+  position: relative;
+  animation: mymove 1.5s ease-in-out;
+}
+@keyframes mymove {
+    from {
+      left: -1500px;
+    }
+    to {
+      left: 0px;
+    }
+  }
